@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "/food";
+const BASE_URL = "https://foodbackend-buks.onrender.com/food";
 
 export const addFood = (data) =>
   axios.post(`${BASE_URL}/add`, data);
